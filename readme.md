@@ -1,3 +1,3 @@
-# Litepie
+# Bixo
 
-This repository contains the core library of Lavalite. If you want to build a website using Lavalite, visit the main [Lavalite repository](http://github.com/lavalite/cms).
+This repository contains the core library of Bixo. If you want to develope a CRM Or ERP application, visit the main [Bixo repository](http://github.com/lavalite/bixo).
