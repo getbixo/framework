@@ -1,0 +1,74 @@
+{
+    "name": "bixo/framework",
+    "description": "The bixo framework",
+    "keywords": [
+        "framework",
+        "laravel",
+        "laravel",
+        "bixo"
+    ],
+    "license": "MIT",
+    "homepage": "https://lavalite.org",
+    "authors": [
+        {
+            "name": "Renfos Technologies",
+            "email": "info@renfos.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/console": "^12.0",
+        "illuminate/support": "^12.0",
+        "illuminate/contracts": "^12.0",
+        "litepie/actions": "^12.0",
+        "litepie/activities": "^12.0",
+        "litepie/database": "^12.0",
+        "litepie/filer": "^12.0",
+        "litepie/hashids": "^12.0",
+        "litepie/menu": "^12.0",
+        "litepie/node": "^12.0",
+        "litepie/roles": "^12.0",
+        "litepie/settings": "^12.0",
+        "litepie/team": "^12.0",
+        "litepie/trans": "^12.0",
+        "litepie/user": "^12.0"
+    },
+    "require-dev": {
+        "aws/aws-sdk-php": "^3.329",
+        "doctrine/dbal": "^3.7",
+        "filp/whoops": "^2.15",
+        "guzzlehttp/guzzle": "^7.8",
+        "league/flysystem-cached-adapter": "^1.2",
+        "mockery/mockery": "^1.6",
+        "orchestra/testbench-core": "^8.0",
+        "pda/pheanstalk": "^5.0",
+        "phpunit/phpunit": "^10.3",
+        "predis/predis": "^2.2",
+        "symfony/cache": "^7.3"
+    },
+    "autoload": {
+        "files": [
+            "src/Bixo/helpers.php"
+        ],
+        "psr-4": {
+            "Bixo\\": "src/Bixo"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Illuminate\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "intervention/imagecache"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
