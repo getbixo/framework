@@ -28,7 +28,7 @@
         "litepie/menu": "^12.0",
         "litepie/node": "^12.0",
         "litepie/role": "^12.0",
-        "litepie/settings": "^12.0",
+        "litepie/setting": "^12.0",
         "litepie/team": "^12.0",
         "litepie/trans": "^12.0",
         "litepie/user": "^12.0"
