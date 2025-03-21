@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": "^8.2",
+        "php": "^8.2|^8.3",
         "illuminate/console": "^12.0",
         "illuminate/contracts": "^12.0",
         "illuminate/support": "^12.0",
@@ -27,7 +27,7 @@
         "litepie/log": "^12.0",
         "litepie/menu": "^12.0",
         "litepie/node": "^12.0",
-        "litepie/roles": "^12.0",
+        "litepie/role": "^12.0",
         "litepie/settings": "^12.0",
         "litepie/team": "^12.0",
         "litepie/trans": "^12.0",
